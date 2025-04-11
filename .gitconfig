@@ -1,0 +1,9 @@
+[user]
+	email = ajpf44@gmail.com
+	name = Alexandre Ferreira
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[push]
+	autoSetupRemote = true

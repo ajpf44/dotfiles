@@ -84,16 +84,6 @@ _G.packer_plugins = {
     path = "/home/ajpf/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
-  ["kanagawa.nvim"] = {
-    loaded = true,
-    path = "/home/ajpf/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
-    url = "https://github.com/rebelot/kanagawa.nvim"
-  },
-  neovim = {
-    loaded = true,
-    path = "/home/ajpf/.local/share/nvim/site/pack/packer/start/neovim",
-    url = "https://github.com/rose-pine/neovim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/ajpf/.local/share/nvim/site/pack/packer/start/nvim-cmp",

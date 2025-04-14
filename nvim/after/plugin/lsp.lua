@@ -1,1 +1,15 @@
-require('lspconfig').clangd.setup({})
+local lsp = require('lspconfig')
+
+lsp.clangd.setup({})
+lsp.gopls.setup({
+  settings = {
+    gopls = {
+      analyses = {
+        unusedparams = true,
+      },
+      staticcheck = true,
+      gofumpt = true,
+    },
+  },
+})
+

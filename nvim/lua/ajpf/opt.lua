@@ -7,9 +7,10 @@ vim.opt.cursorline=true
 vim.opt.rnu=true
 vim.opt.nu=true
 
-vim.opt.sw=2
-vim.opt.sts=2
-vim.opt.ts=2
+local ind = 4
+vim.opt.sw=ind
+vim.opt.sts=ind
+vim.opt.ts=ind
 vim.opt.expandtab=true
 
 vim.opt.smartindent=true

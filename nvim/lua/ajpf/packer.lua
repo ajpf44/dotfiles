@@ -16,7 +16,14 @@ return require('packer').startup(function(use)
 	use({'hrsh7th/nvim-cmp'})
 	use({'hrsh7th/cmp-nvim-lsp'})
 
-  -- themes
-  use ({ 'projekt0n/github-nvim-theme' })
-  -- end themes
+    -- themes
+    use ({ 'projekt0n/github-nvim-theme' })
+    -- end themes
+    use {
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = function()
+        require("nvim-autopairs").setup {}
+    end
+}
 end)
